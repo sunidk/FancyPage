@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh
+}
+nav ul {
+    background-color: black;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px 30px;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+#pink{
+    background: rgba(226, 137, 199, 0.733);
+    width: 100vw;
+    height: 45vh;
+    display: inline-flex;
+}
+#yellow{
+    background: rgba(228, 225, 66, 0.918);
+    width: 33vw;
+    height: 45vh;
+}
+#green{
+    background: rgba(112, 230, 171, 0.918);
+    width: 33vw;
+    height: 45vh;
+}
+#blue{
+    background: rgba(78, 134, 218, 0.918);
+    width: 34vw;
+    height: 45vh;
+}
+section{
+    display: flex;
+    align-items: center;
+    
+}
+.text{
+    color: rgb(2, 43, 59);
+    font-family:serif;
+    font-size: larger;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size:25px;
+}
+#x{
+    color: rgb(126, 5, 5);
+    font-family:sans-serif;
+    font-size: 40px;
+    margin-left: 50px;
+    padding-top: 100px;
+    padding-left: 10vw;
+}
+.content{
+    color: rgb(2, 43, 59);
+    font-family:serif;
+    font-size: larger;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+#pink a{
+    font-size: 30px;
+    text-decoration: none;   
+    color: wheat;
+    width: 20vw;
+    height: 30px;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    text-align: center;
+    padding:15px;
+    background-color: rgb(126, 5, 5);  
+    border-radius: 15px;
+}
+#pink a:hover{
+    background-color: rgb(34, 1, 1);
+    transition: 0.6s;
+}
+
+
