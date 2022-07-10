@@ -1,1 +1,1 @@
-Fancy Page
+Simple Fancy Page
