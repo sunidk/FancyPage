@@ -1,1 +1,1 @@
-# StaticWebPages2
+Fancy Page
